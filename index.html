@@ -1,0 +1,1177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <!-- bootstrap css -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+        />
+        <link rel="stylesheet" a href="css/style.css" />
+    </head>
+    <body onscroll="scroll()">
+        <div class="container-fluid p-0 m-0">
+            <!-- --------------------- -->
+
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="Slide 1"
+                    ></button>
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2"
+                    ></button>
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3"
+                    ></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="main">
+                            <nav
+                                class="navbar navbar-expand-lg fixed-top p-3"
+                                id="nav1"
+                            >
+                                <div class="container-fluid">
+                                    <img
+                                        src="./images/logo/logo-white.png"
+                                        alt=""
+                                    />
+                                    <button
+                                        class="navbar-toggler"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#navbarText"
+                                        aria-controls="navbarText"
+                                        aria-expanded="false"
+                                        aria-label="Toggle navigation"
+                                    >
+                                        <span
+                                            class="navbar-toggler-icon navbar-dark"
+                                        ></span>
+                                    </button>
+                                    <div
+                                        class="collapse navbar-collapse"
+                                        id="navbarText"
+                                    >
+                                        <ul
+                                            class="navbar-nav ms-auto mb-2 mb-lg-0"
+                                        >
+                                            <li class="nav-item">
+                                                <a
+                                                    class="nav-link active text-white"
+                                                    aria-current="page"
+                                                    href="#"
+                                                    >ABOUT</a
+                                                >
+                                            </li>
+                                            <li class="nav-item">
+                                                <a
+                                                    class="nav-link text-light"
+                                                    href="#"
+                                                    >SERVICES</a
+                                                >
+                                            </li>
+                                            <li class="nav-item">
+                                                <a
+                                                    class="nav-link text-light"
+                                                    href="#"
+                                                    >MENU</a
+                                                >
+                                            </li>
+                                            <li class="nav-item">
+                                                <a
+                                                    class="nav-link text-light"
+                                                    href="#"
+                                                    >GALLERY</a
+                                                >
+                                            </li>
+                                            <li class="nav-item">
+                                                <a
+                                                    class="nav-link text-light"
+                                                    href="#"
+                                                    >CHEFS</a
+                                                >
+                                            </li>
+                                            <li class="nav-item">
+                                                <a
+                                                    class="nav-link text-light"
+                                                    href="#"
+                                                    >BLOG</a
+                                                >
+                                            </li>
+                                            <li class="nav-item">
+                                                <a
+                                                    class="nav-link text-light"
+                                                    href="#"
+                                                    >CONTACT</a
+                                                >
+                                            </li>
+                                            <button class="btn bg-warning book">
+                                                BOOK NOW
+                                            </button>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
+
+                            <!-- nav closed -->
+                            <div class="pt-5"></div>
+                            <div class="text-end pt-5">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke-width="1.5"
+                                    stroke=""
+                                    class="svg"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                                    />
+                                </svg>
+                            </div>
+                            <div class="text-end mt-3">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke-width="1"
+                                    stroke=""
+                                    class="svg"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M2.25 12.75V12A2.25 2.25 0 014.5 9.75h15A2.25 2.25 0 0121.75 12v.75m-8.69-6.44l-2.12-2.12a1.5 1.5 0 00-1.061-.44H4.5A2.25 2.25 0 002.25 6v12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9a2.25 2.25 0 00-2.25-2.25h-5.379a1.5 1.5 0 01-1.06-.44z"
+                                    />
+                                </svg>
+                            </div>
+
+                            <div class="row container-fluid p-0 m-0">
+                                <div class="col-5 col-sm-5"></div>
+                                <div
+                                    class="col-12 col-xl-5 bg-danger p-2 content"
+                                >
+                                    <div class="border border-3 p-5">
+                                        <h1 class="font p-0 text-light">
+                                            DELECIOUS BREAKFAST
+                                        </h1>
+                                        <p class="text-light">
+                                            Lorem ipsum dolor sit amet
+                                            consectetur, adipisicing elit. Nisi,
+                                            voluptatibus culpa Lorem ipsum dolor
+                                            sit amet consectetur adipisicing
+                                        </p>
+                                        <button class="btn btn-outline-light">
+                                            DISCOVER MENU
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- -----first slide closed--- -->
+                    </div>
+                    <div class="carousel-item">
+                        <div class="main">
+                            <nav
+                                class="navbar navbar-expand-lg fixed-top p-3"
+                                id="nav1"
+                            >
+                                <div class="container-fluid">
+                                    <img
+                                        src="./images/logo/logo-white.png"
+                                        alt=""
+                                    />
+                                    <button
+                                        class="navbar-toggler"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#navbarText"
+                                        aria-controls="navbarText"
+                                        aria-expanded="false"
+                                        aria-label="Toggle navigation"
+                                    >
+                                        <span
+                                            class="navbar-toggler-icon navbar-dark"
+                                        ></span>
+                                    </button>
+                                    <div
+                                        class="collapse navbar-collapse"
+                                        id="navbarText"
+                                    >
+                                        <ul
+                                            class="navbar-nav ms-auto mb-2 mb-lg-0"
+                                        >
+                                            <li class="nav-item">
+                                                <a
+                                                    class="nav-link active text-white"
+                                                    aria-current="page"
+                                                    href="#"
+                                                    >ABOUT</a
+                                                >
+                                            </li>
+                                            <li class="nav-item">
+                                                <a
+                                                    class="nav-link text-light"
+                                                    href="#"
+                                                    >SERVICES</a
+                                                >
+                                            </li>
+                                            <li class="nav-item">
+                                                <a
+                                                    class="nav-link text-light"
+                                                    href="#"
+                                                    >MENU</a
+                                                >
+                                            </li>
+                                            <li class="nav-item">
+                                                <a
+                                                    class="nav-link text-light"
+                                                    href="#"
+                                                    >GALLERY</a
+                                                >
+                                            </li>
+                                            <li class="nav-item">
+                                                <a
+                                                    class="nav-link text-light"
+                                                    href="#"
+                                                    >CHEFS</a
+                                                >
+                                            </li>
+                                            <li class="nav-item">
+                                                <a
+                                                    class="nav-link text-light"
+                                                    href="#"
+                                                    >BLOG</a
+                                                >
+                                            </li>
+                                            <li class="nav-item">
+                                                <a
+                                                    class="nav-link text-light"
+                                                    href="#"
+                                                    >CONTACT</a
+                                                >
+                                            </li>
+                                            <button class="btn bg-warning book">
+                                                BOOK NOW
+                                            </button>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
+                            <!-- ------------------------------------nav closed-------------------------------------- -->
+                            <div class="pt-5"></div>
+                            <div class="text-end pt-5">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke-width="1.5"
+                                    stroke=""
+                                    class="svg"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                                    />
+                                </svg>
+                            </div>
+                            <div class="text-end">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke-width="1"
+                                    stroke=""
+                                    class="svg"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M2.25 12.75V12A2.25 2.25 0 014.5 9.75h15A2.25 2.25 0 0121.75 12v.75m-8.69-6.44l-2.12-2.12a1.5 1.5 0 00-1.061-.44H4.5A2.25 2.25 0 002.25 6v12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9a2.25 2.25 0 00-2.25-2.25h-5.379a1.5 1.5 0 01-1.06-.44z"
+                                    />
+                                </svg>
+                            </div>
+
+                            <div class="row container-fluid p-0 m-0">
+                                <div class="col-5 col-sm-5"></div>
+                                <div
+                                    class="col-12 col-xl-5 bg-danger p-2 content"
+                                >
+                                    <div class="border border-3 p-5">
+                                        <h1 class="font p-0 text-light">
+                                            DELECIOUS LUNCH
+                                        </h1>
+                                        <p class="text-light">
+                                            Lorem ipsum dolor sit amet
+                                            consectetur, adipisicing elit. Nisi,
+                                            voluptatibus culpa Lorem ipsum dolor
+                                            sit amet consectetur adipisicing
+                                        </p>
+                                        <button class="btn btn-outline-light">
+                                            DISCOVER MENU
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ----second slide closed--- -->
+                    </div>
+                    <div class="carousel-item">
+                        <div class="main">
+                            <nav
+                                class="navbar navbar-expand-lg p-3 fixed-top"
+                                id="nav1"
+                            >
+                                <div class="container-fluid">
+                                    <!-- <a class="navbar-brand" href="#">Navbar w/ text</a> -->
+                                    <img
+                                        src="./images/logo/logo-white.png"
+                                        alt=""
+                                    />
+                                    <button
+                                        class="navbar-toggler"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#navbarText"
+                                        aria-controls="navbarText"
+                                        aria-expanded="false"
+                                        aria-label="Toggle navigation"
+                                    >
+                                        <span
+                                            class="navbar-toggler-icon navbar-dark"
+                                        ></span>
+                                    </button>
+                                    <div
+                                        class="collapse navbar-collapse"
+                                        id="navbarText"
+                                    >
+                                        <ul
+                                            class="navbar-nav ms-auto mb-2 mb-lg-0"
+                                        >
+                                            <li class="nav-item">
+                                                <a
+                                                    class="nav-link active text-white"
+                                                    aria-current="page"
+                                                    href="#"
+                                                    >ABOUT</a
+                                                >
+                                            </li>
+                                            <li class="nav-item">
+                                                <a
+                                                    class="nav-link text-light"
+                                                    href="#"
+                                                    >SERVICES</a
+                                                >
+                                            </li>
+                                            <li class="nav-item">
+                                                <a
+                                                    class="nav-link text-light"
+                                                    href="#"
+                                                    >MENU</a
+                                                >
+                                            </li>
+                                            <li class="nav-item">
+                                                <a
+                                                    class="nav-link text-light"
+                                                    href="#"
+                                                    >GALLERY</a
+                                                >
+                                            </li>
+                                            <li class="nav-item">
+                                                <a
+                                                    class="nav-link text-light"
+                                                    href="#"
+                                                    >CHEFS</a
+                                                >
+                                            </li>
+                                            <li class="nav-item">
+                                                <a
+                                                    class="nav-link text-light"
+                                                    href="#"
+                                                    >BLOG</a
+                                                >
+                                            </li>
+                                            <li class="nav-item">
+                                                <a
+                                                    class="nav-link text-light"
+                                                    href="#"
+                                                    >CONTACT</a
+                                                >
+                                            </li>
+                                            <button class="btn bg-warning book">
+                                                BOOK NOW
+                                            </button>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
+                            <!-- nav closed -->
+                            <div class="pt-5"></div>
+                            <div class="text-end pt-5">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke-width="1.5"
+                                    stroke=""
+                                    class="svg"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                                    />
+                                </svg>
+                            </div>
+                            <div class="text-end mt-3">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke-width="1"
+                                    stroke=""
+                                    class="svg"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M2.25 12.75V12A2.25 2.25 0 014.5 9.75h15A2.25 2.25 0 0121.75 12v.75m-8.69-6.44l-2.12-2.12a1.5 1.5 0 00-1.061-.44H4.5A2.25 2.25 0 002.25 6v12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9a2.25 2.25 0 00-2.25-2.25h-5.379a1.5 1.5 0 01-1.06-.44z"
+                                    />
+                                </svg>
+                            </div>
+
+                            <div class="row container-fluid p-0 m-0">
+                                <div class="col-5 col-sm-5"></div>
+                                <div
+                                    class="col-12 col-xl-5 bg-danger p-2 content"
+                                >
+                                    <div class="border border-3 p-5">
+                                        <h1 class="font p-0 text-light">
+                                            DELECIOUS DINNER
+                                        </h1>
+                                        <p class="text-light">
+                                            Lorem ipsum dolor sit amet
+                                            consectetur, adipisicing elit. Nisi,
+                                            voluptatibus culpa Lorem ipsum dolor
+                                            sit amet consectetur adipisicing
+                                        </p>
+                                        <button class="btn btn-outline-light">
+                                            DISCOVER MENU
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ------third slide closed----- -->
+                    </div>
+                </div>
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev"
+                >
+                    <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next"
+                >
+                    <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- ------------------------------ -->
+
+            <!-- main end -->
+
+            <div class="explore mb-5">
+                <div class="row p-0 m-0 align-items-center">
+                    <div class="col-md-6 text-md-end mt-md-5 m=0 p-0">
+                        <img
+                            class="img-fluid"
+                            src="./images/content-50.jpg"
+                            alt=""
+                        />
+                    </div>
+                    <div class="col-md-4 ms-md-4 mt-md-5 p-sm-4">
+                        <h2 class="caption">
+                            The best food in the town at one of the best
+                            location!!!
+                        </h2>
+                        <h5 class="">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Mollitia non pariatur cupiditate obcaecati.
+                        </h5>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Reprehenderit voluptatum dicta officia
+                            recusandae pariatur quo corrupti iure quos quidem,
+                            necessitatibus accusantium assumenda voluptates,
+                            esse veniam dolores porro sint unde praesentium.
+                        </p>
+                        <div class="text-sm-start text-center">
+                            <button
+                                class="button btn btn-outline-warning rounded-pill"
+                            >
+                                EXPLORE MENU
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-bottom mt-5"></div>
+            <!-- explore closed -->
+            <div class="orders mt-5">
+                <div
+                    class="items row p-0 m-0 justify-content-evenly justify-content-center text-center"
+                >
+                    <div class="col-sm-2 mt-4">
+                        <img
+                            class="img-fluid"
+                            src="./images/icons/restaurant-service-icon01.png"
+                            alt=""
+                        />
+                        <p class="fw-bold mt-3">BREAKFAST</p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Perferendis quas in debitis. Minus debitis
+                        </p>
+                    </div>
+                    <div class="col-sm-2 mt-4">
+                        <img
+                            class="img-fluid"
+                            src="./images/icons/restaurant-service-icon02.png"
+                            alt=""
+                        />
+                        <p class="fw-bold mt-3">LUNCH</p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Perferendis quas in debitis. Minus debitis
+                        </p>
+                    </div>
+                    <div class="col-sm-2 mt-4">
+                        <img
+                            class="img-fluid"
+                            src="./images/icons/restaurant-service-icon03.png"
+                            alt=""
+                        />
+                        <p class="fw-bold mt-3">DINNER</p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Perferendis quas in debitis. Minus debitis
+                        </p>
+                    </div>
+                    <div class="col-sm-2 mt-4">
+                        <img
+                            class="img-fluid"
+                            src="./images/icons/restaurant-service-icon04.png"
+                            alt=""
+                        />
+                        <p class="fw-bold mt-3">DRINKS</p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Perferendis quas in debitis. Minus debitis
+                        </p>
+                    </div>
+                </div>
+                <!-- ---------special------ -->
+                <div class="row p-0 m-0 mt-5">
+                    <div class="col-xl-5 discover align-items-center p-5">
+                        <div class="text-center p-0 m-0">
+                            <img
+                                class="img-fluid p-0 m-0"
+                                src="./images/icons/restaurant-about-icon.png"
+                                alt=""
+                            />
+                            <p class="fw-bold">Speciality of the Restaurant</p>
+                            <h2 class="caption fw-bolder p-0 m-0">
+                                DISCOVER OUR
+                            </h2>
+                            <h2 class="caption p-0 m-0 fw-bolder">
+                                TASTY MEALS
+                            </h2>
+                            <p class="">
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Possimus deleniti suscipit
+                                incidunt ut reprehenderit, modi aliquid omnis
+                                sapiente doloribus amet accusamus asperiores
+                                pariatur impedit sint harum? Consequuntur in
+                                maxime earum!
+                            </p>
+                            <div class="text-center p-0">
+                                <button class="button1">
+                                    BOOK A TABLE
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 food"></div>
+                </div>
+            </div>
+            <!-- orders closed -->
+            <div class="mainmenu p-5">
+                <div class="text-center mx-auto special">
+                    <h2 class="fw-bolder caption">MAIN MENU</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Vel natus reprehenderit culpa expedita eius cupiditate
+                        distinctio itaque numquam ipsa, repellat necessitatibus?
+                        Optio, repudiandae reiciendis blanditiis itaque iste
+                        dolorum nulla eius!
+                    </p>
+                    <div class="row h-25justify-content-center mt-5">
+                        <div class="col-sm-2">
+                            <img
+                                class="img-fluid img1"
+                                src="./images/icons/restaurant-menu-iteam03.png"
+                                alt=""
+                            />
+                            <p class="caption">STARTERS</p>
+                        </div>
+                        <div class="col-sm-2">
+                            <img
+                                class="img-fluid"
+                                src="./images/icons/restaurant-menu-iteam02.png"
+                                alt=""
+                            />
+                            <p class="caption">MEAT</p>
+                        </div>
+                        <div class="col-sm-2">
+                            <img
+                                class="img-fluid"
+                                src="./images/icons/restaurant-menu-iteam03.png"
+                                alt=""
+                            />
+                            <p class="caption">FISH</p>
+                        </div>
+                        <div class="col-sm-2">
+                            <img
+                                class="img-fluid"
+                                src="./images/icons/restaurant-menu-iteam04.png"
+                                alt=""
+                            />
+                            <p class="caption">VEGITARIN</p>
+                        </div>
+                        <div class="col-sm-2">
+                            <img
+                                class="img-fluid"
+                                src="./images/icons/restaurant-menu-iteam05.png"
+                                alt=""
+                            />
+                            <p class="caption">DESSERT</p>
+                        </div>
+                        <div class="col-sm-2">
+                            <img
+                                class="img-fluid"
+                                src="./images/icons/restaurant-menu-iteam06.png"
+                                alt=""
+                            />
+                            <p class="caption">DRINKS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center mx-auto mt-sm-3 price">
+                    <div class="col-xl-4 border-bottom">
+                        <div class="row">
+                            <div class="col-sm-10">
+                                <p class="fw-bold">Green salad</p>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Iste tempore, quidem, fuga
+                                </p>
+                            </div>
+                            <div class="col-sm-2 text-end">
+                                <p class="fw-bold">$12.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 ms-3">
+                        <div class="row border-bottom">
+                            <div class="col-sm-10">
+                                <p class="fw-bold">Appeteaser Platter</p>
+                                <p class="">
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Iste tempore, quidem, fuga
+                                </p>
+                            </div>
+                            <div class="col-sm-2 text-end">
+                                <p class="fw-bold">$23.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center mx-auto mt-sm-3">
+                    <div class="col-xl-4">
+                        <div class="row border-bottom">
+                            <div class="col-sm-10">
+                                <p class="fw-bold">Egg any style</p>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Iste tempore, quidem, fuga
+                                </p>
+                            </div>
+                            <div class="col-sm-2 text-end">
+                                <p class="fw-bold">$23.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 ms-3">
+                        <div class="row border-bottom">
+                            <div class="col-sm-10">
+                                <p class="fw-bold">Spicy mixed olives</p>
+                                <p class="">
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Iste tempore, quidem, fuga
+                                </p>
+                            </div>
+                            <div class="col-sm-2 text-end">
+                                <p class="fw-bold">$53.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center mx-auto mt-sm-3">
+                    <div class="col-xl-4">
+                        <div class="row chicken">
+                            <div class="col-sm-10">
+                                <p class="fw-bold">Chicken wings</p>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Iste tempore, quidem, fuga
+                                </p>
+                            </div>
+                            <div class="col-sm-2 text-end">
+                                <p class="fw-bold">$45.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 ms-3">
+                        <div class="row">
+                            <div class="col-sm-10">
+                                <p class="fw-bold">Wing Roulette</p>
+                                <p class="">
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Iste tempore, quidem, fuga
+                                </p>
+                            </div>
+                            <div class="col-sm-2 text-end">
+                                <p class="fw-bold">$25.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- main menu closed -->
+            <div class="foodgallery">
+                <div
+                    class="row m-0 p-0 mx-auto justify-content-center text-center"
+                >
+                    <div class="foodgallery1">
+                        <h1 class="caption">FOOD GALLERY</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Sed hic animi corrupti voluptas quasi ab
+                            accusantium necessitatibus consequuntur velit
+                            voluptate quia perspiciatis eum quaerat, dolore
+                            pariatur, vitae nemo molestias. Dolorem.
+                        </p>
+                    </div>
+                </div>
+                <div class="row m-0 p-0 mt-5">
+                    <div class="col-sm-3 m-0 p-0">
+                        <img
+                            class="img-fluid m-0 p-0"
+                            src="./images/agency-work-13.jpg"
+                            alt=""
+                        />
+                    </div>
+                    <div class="col-sm-3 m-0 p-0">
+                        <div class="m-0 p-0">
+                            <img
+                                class="img-fluid m-0 p-0"
+                                src="./images/agency-work-08.jpg"
+                                alt=""
+                            />
+                        </div>
+                        <div class="m-0 p-0">
+                            <img
+                                class="img-fluid m-0 p-0"
+                                src="./images/agency-work-02.jpg"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                    <div class="col-sm-3 m-0 p-0">
+                        <img
+                            class="img-fluid m-0 p-0"
+                            src="./images/agency-work-14.jpg"
+                            alt=""
+                        />
+                    </div>
+                    <div class="col-sm-3 m-0 p-0">
+                        <div class="m-0 p-0">
+                            <img
+                                class="img-fluid m-0 p-0"
+                                src="./images/agency-work-06.jpg"
+                                alt=""
+                            />
+                        </div>
+                        <div class="m-0 p-0">
+                            <img
+                                class="img-fluid m-0 p-0"
+                                src="./images/agency-work-08.jpg"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- food gallery closed  -->
+            <div class="row mx-auto text-center m-0 p-0 foodgallery1 mt-5">
+                <div class="">
+                    <h2 class="caption">MEET OUR CHEF</h2>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Earum, debitis eveniet. Quasi dignissimos saepe
+                        perspiciatis accusantium alias fuga reiciendis
+                        doloremque earum, consectetur beatae, adipisci aut
+                    </p>
+                </div>
+            </div>
+            <div class="row mx-auto mt-3 justify-content-center">
+                <div class="col-xl-5 p-5 row align-items-center chef">
+                    <div class="">
+                        <h3>Gustave Bernier</h3>
+                        <p>Exicutive Chef</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Amet quae hic aspernatur expedita dolorem
+                            delectus ipsa iusto animi? Quibusdam sed alias
+                            corrupti nisi deserunt nemo, cumque iste ab? Maxime,
+                            cumque?
+                        </p>
+                        <p class="fw-light">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Vitae magni, exercitationem rem vel velit
+                            nihil explicabo! Vero, iusto repudiandae eum natus
+                            doloremque animi nesciunt maiores hic, placeat,
+                            facilis minima nam?
+                        </p>
+                        <div>
+                            <img
+                                class="img-fluid"
+                                src="./images/Gustave_Berneir__1_-removebg-preview (2).png"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 p-0 m-0 text-center">
+                    <img
+                        class="img-fluid p-0 m-0"
+                        src="./images/restaurant-chef-01.jpg"
+                        alt=""
+                    />
+                </div>
+            </div>
+            <!-- chef closed  -->
+            <div
+                class="amaizing row align-items-center text-center justify-content-center p-0 m-0"
+            >
+                <div class="foodgallery1">
+                    <h1 class="text-light">
+                        Amaizing restaurant come and experience inspired
+                        cooking!
+                    </h1>
+                    <button class="button1">BOOK A TABLE</button>
+                </div>
+            </div>
+            <div class="row mx-auto text-center m-0 p-0 foodgallery1 mt-5">
+                <div class="">
+                    <h2 class="caption">OUR BLOGS</h2>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Earum, debitis eveniet. Quasi dignissimos saepe
+                        perspiciatis accusantium alias fuga reiciendis
+                        doloremque earum, consectetur beatae, adipisci aut
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-center p-0 m-0 mt-5">
+                <div class="col-xl-3">
+                    <img
+                        class="img-fluid p-3 p-sm-0"
+                        src="./images/agency-content-img01.jpg"
+                        alt=""
+                    />
+                    <p class="fw-bold mt-3">WARM HUMMUS WITH SPICED LAMB</p>
+                    <p class="fw-light">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aperiam sequi ad maiores dolorem enim omnis, eveniet
+                        maxime ducimus quo quibusdam dolorum sapiente nobis eius
+                        ratione saepe odio? Quia, laboriosam obcaecati.
+                    </p>
+                </div>
+                <div class="col-xl-3">
+                    <img
+                        class="img-fluid p-3 p-sm-0"
+                        src="./images/agency-content-img02.jpg"
+                        alt=""
+                    />
+                    <p class="fw-bold mt-3">SCRATCH MADE MOSCOW MULES</p>
+                    <p class="fw-light">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aperiam sequi ad maiores dolorem enim omnis, eveniet
+                        maxime ducimus quo quibusdam dolorum sapiente nobis eius
+                        ratione saepe odio? Quia, laboriosam obcaecati.
+                    </p>
+                </div>
+                <div class="col-xl-3">
+                    <img
+                        class="img-fluid p-3 p-sm-0"
+                        src="./images/agency-content-img03.jpg"
+                        alt=""
+                    />
+                    <p class="fw-bold mt-3">CRUMB TOPPED APPLE SLAB PIE</p>
+                    <p class="fw-light">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aperiam sequi ad maiores dolorem enim omnis, eveniet
+                        maxime ducimus quo quibusdam dolorum sapiente nobis eius
+                        ratione saepe odio? Quia, laboriosam obcaecati.
+                    </p>
+                </div>
+            </div>
+
+            <div class="meal mt-5 row justify-content-end m-0 p-0">
+                <div
+                    class="col-xl-3 meal1 p-0 m-0 text-center row align-items-center p-5"
+                >
+                    <div class="">
+                        <h2 class="caption">
+                            ENJOY THE MEAL & FRIENDLY SERVICE!
+                        </h2>
+                        <p class="h6 mt-3">
+                            We offer a wide variety of tranings to achieve the
+                            best results.
+                        </p>
+                        <p class="fw-light mt-3">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Amet quae hic aspernatur expedita dolorem
+                            delectus ipsa iusto animi? Quibusdam sed alias
+                            corrupti nisi deserunt nemo, cumque iste ab? Maxime,
+                            cumque?
+                        </p>
+                        <button class="button1">BOOK A TABLE</button>
+                    </div>
+                </div>
+                <div class="col-0 col-xl-6"></div>
+            </div>
+            <!-- meal closed  -->
+            <div class="row text-center p-0 m-0">
+                <div class="row justify-content-evenly condact">
+                    <div class="col-sm-2">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1"
+                            stroke="currentColor"
+                            class="svg1 mt-5"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
+                            />
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
+                            />
+                        </svg>
+                        <p class="fw-bold caption">Condact address</p>
+                        <p class="m-0">301 The Greenhouse,custard,</p>
+                        <p class="m-0">factory,London,E2 8DY</p>
+                    </div>
+                    <div class="col-sm-2">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="svg1 mt-5"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"
+                            />
+                        </svg>
+                        <p class="fw-bold caption">condact number</p>
+                        <p class="m-0 p-0">75100300939</p>
+                        <p class="m-0 p-0">57626161751</p>
+                    </div>
+                    <div class="col-sm-2">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="svg1 mt-5"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
+                            />
+                        </svg>
+                        <p class="fw-bold caption">email address</p>
+                        <p class="m-0 p-0">norepaly@gmail.com</p>
+                        <p class="m-0 p-0">hi@gmail.com</p>
+                    </div>
+                    <div class="col-sm-2">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="svg1 mt-5"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                            />
+                        </svg>
+                        <p class="fw-bold caption">opening hours</p>
+                        <p class="m-0 p-0">Mon to Sat-9AM to 11 PM</p>
+                        <p class="m-0 p-0">sun - 8 AM to 12AM</p>
+                    </div>
+                </div>
+            </div>
+            <!-- condact closed  -->
+            <div
+                class="booking row text-center align-items-center justify-content-center m-0 p-0 mt-5"
+            >
+                <div class="col-sm-5">
+                    <div>
+                        <h1 class="text-light">BOOK A TABLE</h1>
+                        <p class="text-light">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Delectus impedit eveniet quod itaque fugiat
+                            inventore quidem. Voluptatem, quia hic asperiores
+                            aut officiis placeat vero quod architecto excepturi
+                            quo earum magnam?
+                        </p>
+
+                        <form action="#" onsubmit="return submit1()">
+                            <input
+                                type="text"
+                                class="form-control"
+                                placeholder="YOUR NAME"
+                                id="name"
+                            />
+
+                            <input
+                                type="email"
+                                class="form-control mt-3"
+                                id="mail"
+                                placeholder="name@example.com"
+                            />
+
+                            <div class="form-floating mt-3">
+                                <textarea
+                                    class="form-control"
+                                    placeholder="Leave a comment here"
+                                    id="floatingTextarea2"
+                                    style="height: 100px"
+                                ></textarea>
+                                <label for="floatingTextarea2">Comments</label>
+                            </div>
+                            <button type="submit" class="button1 mt-5">
+                                BOOK A TABLE
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- booking closed  -->
+            <div class="row text-center mt-5 p-0 m-0">
+                <div><img src="./images/logo/logo.png" alt="" /></div>
+            </div>
+            <div class="row justify-content-center mt-5 m-0 p-0">
+                <div
+                    class="col-12 col-xl-10 row p-0 m-0 justify-content-between"
+                >
+                    <div class="col-12 col-xl-5 row justify-content-center">
+                        <p class="col-5 col-xl-3">privacy policy</p>
+                        <p class="col-6 col-xl-4">Terms and condition</p>
+                        <p class="col-1 col-xl-1">Legal</p>
+                    </div>
+                    <div class="col-xl-5">
+                        <p>@ 2016 LeadGEN is proudly presented by ThemeZee</p>
+                    </div>
+                    <div class="col-xl-2">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-google-plus-g"></i>
+                        <i class="fa-brands fa-pinterest"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- bootstrap js -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- font awsome -->
+        <script
+            src="https://kit.fontawesome.com/7e500db2e9.js"
+            crossorigin="anonymous"
+        ></script>
+        <!-- jquery -->
+        <script
+            src="https://code.jquery.com/jquery-3.6.3.min.js"
+            integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+            crossorigin="anonymous"
+        ></script>
+        <!-- javascript -->
+        <script src="js/script.js"></script>
+    </body>
+</html>

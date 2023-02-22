@@ -1,0 +1,137 @@
+/* author:AMAL A M */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main {
+    background-image: url("../images/background/agency-slider-04.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+}
+.book {
+    width: fit-content;
+}
+.svg {
+    width: 2%;
+    stroke: #fff;
+}
+.svg1 {
+    color: #ffff00;
+    width: 12%;
+}
+.font {
+    font-size: 60px;
+    font-weight: 900;
+    /* word-wrap: break-word; */
+}
+.img1 {
+    filter: saturate(10);
+}
+.caption {
+    color: #966c3b;
+}
+.food {
+    background-image: url("../images/background/restaurant-about-bg.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    height: 70vh;
+    background-position: center;
+}
+.discover {
+    background-color: #fff5ea;
+}
+.mainmenu {
+    background-image: url("../images/background/restaurant-menu-bg.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+}
+.special,
+.foodgallery1 {
+    width: 50%;
+}
+.chef,
+.meal1 {
+    background-color: #fffbeb;
+}
+.amaizing {
+    background-image: linear-gradient(
+            to bottom,
+            rgb(0, 0, 0, 0.52),
+            rgb(0, 0, 0, 0.5)
+        ),
+        url("../images/background/hero-bg9.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    height: 70vh;
+}
+.button1 {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #ffff00;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.button1:hover {
+    background-color: #ffffff;
+
+    color: black;
+    transform: translateY(-7px);
+}
+
+.button1:active {
+    transform: translateY(-1px);
+}
+.meal {
+    background-image: url("../images/background/fitness-about-bg.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    min-height: 70vh;
+}
+.condact {
+    min-height: 30vh;
+}
+.booking {
+    background-image: linear-gradient(
+            to bottom,
+            rgb(0, 0, 0, 0.52),
+            rgb(0, 0, 0, 0.5)
+        ),
+        url("../images/background/hero-bg3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 80vh;
+}
+@media screen and (max-width: 576px) {
+    .special,
+    .foodgallery1 {
+        width: 100%;
+    }
+    .meal {
+        background-image: none;
+        height: fit-content;
+    }
+    .chicken {
+        border-bottom: 1px solid #dad3d3;
+    }
+    .font {
+        font-size: 40px;
+        font-weight: 900;
+    }
+}
